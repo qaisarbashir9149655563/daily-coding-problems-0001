@@ -3,6 +3,10 @@ package com.company;
 import java.util.Scanner;
 
 public class DCP12 {
+    /*Contigeous elements of the list sum to k
+    *  For example, if the list is [1,2,3,4,5] and k is 9, then it should return [2,3,4], since
+    * 2+3+4 = 9
+    *  */
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n = sc.nextInt();
